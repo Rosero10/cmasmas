@@ -958,14 +958,14 @@ main()
 			break;
 			case 7: 
 					cout<<"CREAR COMPONENTES FRONT-END"<<endl; 
-					cout<<"1-¿cuales son los tres pilares principales de la ciberseguridad?"<<endl;
-					cout<<"a)amistad, valores y conocimiento"<<endl;
-					cout<<"b)avances tecnologicos, antivirus y protocolos"<<endl;
-					cout<<"c)honestidad, confidencialidad y recursos"<<endl;
-					cout<<"d)Integridad, confidencialidad y disponibilidad"<<endl;
+					cout<<"		1 Cómo se realizará el seguimiento y la gestión de los requisitos del cliente durante el desarrollo?"<<endl;
+					cout<<"a)Estructurando el algoritmo"<<endl;
+					cout<<"b)Análisis de información."<<endl;
+					cout<<"c)Compilación"<<endl;
+					cout<<"d)Lógica de programación"<<endl;
 					cin>>respuesta;
 
-				    if(respuesta=='d')
+				    if(respuesta=='b')
 						{
 					  		cout<<"la respuesta es correcta"<<endl;
 					  		contap=contap+1;
@@ -975,11 +975,28 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}	 
-					cout<<"		2-¿Cuáles son los principales tipos de ataques y alertas actuales?"<<endl;
-					cout<<"a)APT, Advanced Persistent Threat"<<endl;
-					cout<<"b)El phishing"<<endl;
-					cout<<"c)Malware"<<endl;
-					cout<<"d)Fake News"<<endl;
+					cout<<"		2-¿Que requisito debe cumplir la GUI (interfaz gráfica de usuario)?"<<endl;
+					cout<<"a)Mantener la simplicidad"<<endl;
+					cout<<"b)Diseñar con programación orientada a objetos."<<endl;
+					cout<<"c)Actualizaciones del usuario."<<endl;
+					cout<<"d)Consistencia"<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='c')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}	
+					cout<<"		3-¿Cuál es la visión final para medir el éxito del proyecto? "<<endl;
+					cout<<"a)Compilación."<<endl;
+					cout<<"b)La satisfacción del cliente."<<endl;
+					cout<<"c)Adopción del sistema por parte del usuario."<<endl;
+					cout<<"d)La eficiencia operativa."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='b')
@@ -992,11 +1009,28 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}	
-					cout<<"		3-¿A que se le considera Antispyware?"<<endl;
-					cout<<"a)funcion que procesa algoritmos decodificados"<<endl;
-					cout<<"b)programa para controlar el sistema operativo de un equipo de computo"<<endl;
-					cout<<"c)Herramienta de software diseñada para detectar y eliminar programas maliciosos"<<endl;
-					cout<<"d)ninguna de las anteriores"<<endl;
+							cout<<"		4-¿Cómo se gestionarán los cambios en los requisitos durante el desarrollo del software?"<<endl;
+					cout<<"a)Pruebas de escritorio."<<endl;
+					cout<<"b)Actualizaciones"<<endl;
+					cout<<"c)Análisis de algoritmo."<<endl;
+					cout<<"d)Compilación."<<endl;
+					cin>>respuesta;
+
+				    if(respuesta=='b')
+						{
+					  		cout<<"la respuesta es correcta"<<endl;
+					  		contap=contap+1;
+				    	}
+					else
+						{
+							cout<<"La respuesta es incorrecta"<<endl; 
+							contan=contan+1;
+						}
+					cout<<"		5-¿Cuál es la estrategia de respaldo y recuperación de datos para el software?"<<endl;
+					cout<<"a)Impresión. "<<endl;
+					cout<<"b)Copias de seguridad"<<endl;
+					cout<<"c)Almacenamiento en la nube."<<endl;
+					cout<<"d)Guardar."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='c')
@@ -1008,46 +1042,12 @@ main()
 						{
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
-						}	
-							cout<<"		4-¿Que es un Backup?"<<endl;
-					cout<<"a)Copia de seguridad que protege los datos en caso de ser eliminados del disco duro"<<endl;
-					cout<<"b)herramienta de sefuridad compuesto por varios programas enlazados"<<endl;
-					cout<<"c)Es una aplicacion web con gestor de contenidos"<<endl;
-					cout<<"d)programa informatico que aprovecha errores para mejorar su desarrollo"<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='a')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
 						}
-					cout<<"5-¿Cual es el objetivo de la ciberseguridad?"<<endl;
-					cout<<"a)prevenir, proteger y detectar amenazas de manera temprana en datos o informacion sensible, asi mismo recuperar datos y/o dispositivos atacados "<<endl;
-					cout<<"b)Es el estudio que comprende el análisis y gestión de sistemas llevado a cabo por profesionales en tecnologías de la información (TI) con el objetivode identificar, enumerar y describir las diversas vulnerabilidades"<<endl;
-					cout<<"c)Es dirigir las transacciones comerciales entre empresas, utilizando medios telemáticos como EDI (Electronic Data Interchange) o el Comercio Electrónico."<<endl;
-					cout<<"d)Tiene como objetivo dirigir las rutas de los datos en riesgo a bases seguras para ser analizadas por personal profesional con sofware adaptado a las necesidades "<<endl;
-					cin>>respuesta;
-
-				    if(respuesta=='a')
-						{
-					  		cout<<"la respuesta es correcta"<<endl;
-					  		contap=contap+1;
-				    	}
-					else
-						{
-							cout<<"La respuesta es incorrecta"<<endl; 
-							contan=contan+1;
-						}
-					cout<<"6-¿Que es un dominio en ciberseguridad?"<<endl;
-					cout<<"a)Es un solo sistema operativo destinado a la navegacion en la web"<<endl;
-					cout<<"b)Es una direccion unica y legible para identificar y acceder a recursos de la web"<<endl;
-					cout<<"c)es la parte que se puede personalizar y puede elegir el propietario del sitio web."<<endl;
-					cout<<"d) la respuesta b y c son correctas."<<endl;
+					cout<<		"6-¿Cuál es el plan de capacitación para los usuarios finales del software?"<<endl;
+					cout<<"a)Visión."<<endl;
+					cout<<"b)Inspecciones."<<endl;
+					cout<<"c)Evaluaciones."<<endl;
+					cout<<"d)Plan de capacitación."<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='d')
@@ -1060,14 +1060,14 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}
-					cout<<"7-¿cuales son las fases de la ciberseguridad?"<<endl;
-					cout<<"a)compilar, operar, solucionar y verificar"<<endl;
-					cout<<"b)Prevencion, metodologia, transformacion y regulacion"<<endl;
-					cout<<"c)Prevencion, deteccion, respuesta y conservacion"<<endl;
-					cout<<"d)todas las opciones son correctas"<<endl;
+					cout<<"		7-¿Cómo se manejarán las actualizaciones de software y parches de seguridad después del lanzamiento? "<<endl;
+					cout<<"a)Pruebas de escritorios."<<endl;
+					cout<<"b)Análisis de requerimientos con fallas halladas."<<endl;
+					cout<<"c)Herramientas de mejora."<<endl;
+					cout<<"d)Antivirus."<<endl;
 					cin>>respuesta;
 
-				    if(respuesta=='c')
+				    if(respuesta=='b')
 						{
 					  		cout<<"la respuesta es correcta"<<endl;
 					  		contap=contap+1;
@@ -1077,14 +1077,14 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}
-					cout<<"8-¿Que es la criptografia en la seguridad cibernetica ?"<<endl;
-					cout<<"a)Es un codigo con orden estructurado de aspectos basicos para la proteccion de datos"<<endl;
-					cout<<"b)Es un sistema Operativo que encripta informacion para dificultar su violacion"<<endl;
-					cout<<"c)Es una práctica que consiste en proteger información mediante el uso de algoritmos codificados, hashes y firmas"<<endl;
-					cout<<"d)Es un lenguaje de desarrollo cibernetico que guarda datos para trasladarlos de forma segura de una base a otra"<<endl;
+					cout<<"		8-¿Cuál es la política de privacidad y seguridad de datos del software? "<<endl;
+					cout<<"a)Proteger la confidencialidad y la integridad de los datos del cliente."<<endl;
+					cout<<"b)Almacenamiento en la nube"<<endl;
+					cout<<"c)Caja fuerte"<<endl;
+					cout<<"d)Memorias de USB."<<endl;
 					cin>>respuesta;
 
-				    if(respuesta=='c')
+				    if(respuesta=='a')
 						{
 					  		cout<<"la respuesta es correcta"<<endl;
 					  		contap=contap+1;
@@ -1094,14 +1094,14 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}
-					cout<<"9-Funciones de un Firewall"<<endl;
-					cout<<"a)proteger el sistema de malware, gusanos y virus"<<endl;
-					cout<<"b)dirigir la informacion a un servidor para que contenido no sea publico"<<endl;
-					cout<<"c)impide la filtracion de contenido"<<endl;
-					cout<<"d)a y c son correctas"<<endl;
+					cout<<"		9-¿Cómo se garantizará la usabilidad y la accesibilidad del software para todos los usuarios? "<<endl;
+					cout<<"a)Se realizarán pruebas de usabilidad y accesibilidad."<<endl;
+					cout<<"b)Compilación de datos."<<endl;
+					cout<<"c)Control de usuarios."<<endl;
+					cout<<"d)Pruebas de escritorio"<<endl;
 					cin>>respuesta;
 
-				    if(respuesta=='d')
+				    if(respuesta=='a')
 						{
 					  		cout<<"la respuesta es correcta"<<endl;
 					  		contap=contap+1;
@@ -1111,11 +1111,11 @@ main()
 							cout<<"La respuesta es incorrecta"<<endl; 
 							contan=contan+1;
 						}
-					cout<<"10-¿Cuales son los beneficios de la ciberseguridad?"<<endl;
-					cout<<"a)cumplir con requisitos legales, evitar perdidas financieras, conciencia de seguridad"<<endl;
-					cout<<"b)control de acceso, productividad del equipo, recuperacion de informacion"<<endl;
-					cout<<"c)proteccion a la infraestructura de la red, confianza, monitoreo interno"<<endl;
-					cout<<"d)todas las anteriores"<<endl;
+					cout<<"		10-¿Qué es una interfaz y para qué sirve? "<<endl;
+					cout<<"a)Cuadro con botones de ingreso. "<<endl;
+					cout<<"b)Base de datos "<<endl;
+					cout<<"c)Control de operaciones "<<endl;
+					cout<<"d)Permite la comunicación entre usuario , maquina , equipo , computadora. "<<endl;
 					cin>>respuesta;
 
 				    if(respuesta=='d')
